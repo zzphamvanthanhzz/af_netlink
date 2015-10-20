@@ -13,7 +13,7 @@ CND_BUILDDIR=build
 CND_DLIB_EXT=so
 NBTMPDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/af_netlink
+OUTPUT_PATH=../bin/af_netlink
 OUTPUT_BASENAME=af_netlink
 PACKAGE_TOP_DIR=afnetlink/
 

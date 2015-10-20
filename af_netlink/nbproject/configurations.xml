@@ -31,6 +31,14 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>inc</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>../bin/af_netlink</output>
+        </linkerTool>
       </compileType>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -47,6 +55,9 @@
         </cTool>
         <ccTool>
           <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>inc</pElem>
+          </incDir>
         </ccTool>
         <fortranCompilerTool>
           <developmentMode>5</developmentMode>
