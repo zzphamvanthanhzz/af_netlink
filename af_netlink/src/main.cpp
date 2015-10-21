@@ -8,21 +8,17 @@
 #include <cstdlib>
 #include <unistd.h>
 #include <string.h>//for memset
-#include <linux/inet_diag.h>
-#include <linux/netlink.h>
-#include <linux/rtnetlink.h>
-#include <sys/socket.h>
 #include <netinet/in.h>
 #include <stdio.h>
 #include <errno.h>
+#include <linux/inet_diag.h>
+#include <linux/netlink.h>
+#include <linux/rtnetlink.h>
+#include <linux/sock_diag.h>
+#include <linux/socket.h>
+#include <linux/unix_diag.h>
 
-#include "inet_diag.h"
-#include "netlink.h"
-#include "rtnetlink.h"
-#include "sock_diag.h"
-#include "socket.h"
 #include "ss_common.h"
-#include "unix_diag.h"
 
 
 #define SOCKET_BUFFER_SIZE (getpagesize() < 8192L ? getpagesize() : 8192L)

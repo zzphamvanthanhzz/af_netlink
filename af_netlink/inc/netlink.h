@@ -2,7 +2,7 @@
 #define __LINUX_NETLINK_H
 
 #include <linux/kernel.h>
-#include "sysagent/ss/socket.h" /* for __kernel_sa_family_t */
+#include "socket.h" /* for __kernel_sa_family_t */
 #include <linux/types.h>
 
 #define NETLINK_ROUTE		0	/* Routing/device hook				*/
