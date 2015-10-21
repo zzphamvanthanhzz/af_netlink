@@ -2,7 +2,13 @@
 <configurationDescriptor version="95">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="inc" displayName="inc" projectFiles="true">
-      <itemPath>inc/common.h</itemPath>
+      <itemPath>inc/inet_diag.h</itemPath>
+      <itemPath>inc/netlink.h</itemPath>
+      <itemPath>inc/rtnetlink.h</itemPath>
+      <itemPath>inc/sock_diag.h</itemPath>
+      <itemPath>inc/socket.h</itemPath>
+      <itemPath>inc/ss_common.h</itemPath>
+      <itemPath>inc/unix_diag.h</itemPath>
     </logicalFolder>
     <logicalFolder name="src" displayName="src" projectFiles="true">
       <itemPath>src/main.cpp</itemPath>
@@ -41,7 +47,19 @@
           <output>../bin/af_netlink</output>
         </linkerTool>
       </compileType>
-      <item path="inc/common.h" ex="false" tool="3" flavor2="0">
+      <item path="inc/inet_diag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/netlink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/rtnetlink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/sock_diag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ss_common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/unix_diag.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -69,7 +87,19 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="inc/common.h" ex="false" tool="3" flavor2="0">
+      <item path="inc/inet_diag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/netlink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/rtnetlink.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/sock_diag.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/socket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/ss_common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="inc/unix_diag.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
